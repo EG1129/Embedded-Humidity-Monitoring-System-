@@ -79,6 +79,3 @@ On a failed transaction, the firmware reports a specific reason such as `communi
 - CRC uses polynomial `0x31` and initialization value `0xFF`, per the sensor datasheet.
 - UART logging is intentionally blocking for simple bring-up. A DMA/ring-buffer logger is a natural production extension.
 
-## License
-
-MIT — see [LICENSE](LICENSE).
